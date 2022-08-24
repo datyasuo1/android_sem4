@@ -98,9 +98,9 @@ public class MainActivity extends AppCompatActivity {
                 filmAdapter.reloadData(listTitle.get(2));
                 filmAdapter.reloadData(listTitle.get(3));
                 listSection.add(new Section("Trending",listTitle.get(0)));
-                listSection.add(new Section("Hot", listTitle.get(1)));
-                listSection.add(new Section("Popular", listTitle.get(2)));
-                listSection.add(new Section("Upcoming", listTitle.get(3)));
+                listSection.add(new Section("Hot",listTitle.get(1)));
+                listSection.add(new Section("Popular",listTitle.get(2)));
+                listSection.add(new Section("Upcoming",listTitle.get(3)));
                 sectionAdapter.reloadDataSection(listSection);
             }
 
